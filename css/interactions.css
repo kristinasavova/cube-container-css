@@ -42,19 +42,19 @@
 }
 
 .front {
-	transform: translateZ(110px);
+	transform: translate3d(0, 0, 110px);
 }
 
 .back {
-	transform: translateZ(-110px) rotateY(270deg);
+	transform: translate3d(0, 0, -110px) rotateY(270deg);
 	transform-origin: center left;
 }
 
 .left {
-	transform: rotateY(-270deg) translateX(110px);
+	transform: rotateY(-270deg) translate3d(110px, 0, 0);
 	transform-origin: top right;
 }
 
 .right {
-	transform: translateZ(-110px) rotateY(180deg);
+	transform: translate3d(0, 0, -110px) rotateY(180deg);
 }
